@@ -1,0 +1,47 @@
+{
+    // ✅ General Performance
+    "disable-hardware-acceleration": true,
+    "window.zoomLevel": 0,
+    // ✅ Editor Performance
+    "editor.formatOnSave": false,
+    "editor.quickSuggestions": {
+        "other": false,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.parameterHints.enabled": false,
+    "editor.wordBasedSuggestions": "off",
+    "editor.codeLens": false,
+    "editor.inlineSuggest.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "editor.smoothScrolling": false,
+    // ✅ File & Search Optimization
+    "files.watcherExclude": {
+        "**/node_modules/**": true,
+        "**/.git/**": true,
+        "**/build/**": true,
+        "**/dist/**": true,
+        "**/.next/**": true,
+        "**/.cache/**": true
+    },
+    "search.exclude": {
+        "**/node_modules/**": true,
+        "**/build/**": true,
+        "**/dist/**": true,
+        "**/.next/**": true,
+        "**/.cache/**": true
+    },
+    // ✅ Git Optimization (disable for huge repos)
+    "git.enabled": true,
+    "git.autorefresh": false,
+    "git.autofetch": false,
+    // ✅ Terminal Optimization
+    "terminal.integrated.gpuAcceleration": "off",
+    "terminal.integrated.scrollback": 1000,
+    // ✅ Explorer
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false
+}

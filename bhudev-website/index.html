@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Bhudev Network Charitable Foundation - Connecting communities through innovative matrimonial apps">
+    <meta name="keywords" content="matrimonial, marriage, wedding, community, regional, NRI, social networking">
+    <meta name="author" content="Bhudev Network Charitable Foundation">
+
+    <title>Bhudev Network - All in One Matrimonial Platform</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Bhudev Network - All in One Matrimonial Platform">
+    <meta property="og:description" content="Connecting communities through innovative matrimonial apps">
+    <meta property="og:image" content="./images/og-image.jpg">
+    <meta property="og:url" content="https://all.bhudevnetworkvivah.com">
+    <meta property="og:type" content="website">
+
+    <!-- Make apps.html the homepage -->
+    <meta http-equiv="refresh" content="0; url=./pages/apps.html">
+    <script>window.location.replace('./pages/apps.html');</script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo-container">
+                    <img src="./images/img1.png" alt="Bhudev Network Logo" class="logo">
+                </div>
+
+                <!-- Navigation -->
+                <nav>
+                    <ul class="nav">
+                        <li><a href="./pages/apps.html" class="nav-link">Home</a></li>
+                        <li><a href="./pages/happy-stories.html" class="nav-link">Happy Stories</a></li>
+                        <li><a href="./pages/social-media.html" class="nav-link">Social Media</a></li>
+                        <li><a href="./pages/about.html" class="nav-link">About</a></li>
+                        <li><a href="./pages/contact.html" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                    <div class="hamburger-lines">
+                        <div class="hamburger-line"></div>
+                        <div class="hamburger-line"></div>
+                        <div class="hamburger-line"></div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <h1>Welcome to Bhudev Network</h1>
+                <p>Connecting hearts, building relationships, and strengthening communities through our comprehensive
+                    matrimonial platform</p>
+                <div class="hero-buttons">
+                    <a href="./pages/apps.html" class="btn btn-primary">Explore Our Apps</a>
+                    <a href="./pages/contact.html" class="btn btn-secondary">Get Started</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Information Section -->
+        <section class="contact-info" id="contact-info">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Primary Contact</h3>
+                        <a href="tel:9081522111">9081522111</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3>Support Line</h3>
+                        <a href="tel:7990208986">7990208986</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Mobile Support</h3>
+                        <a href="tel:9099798986">9099798986</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h3>Help Desk</h3>
+                        <a href="tel:9537784694">9537784694</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Support</h3>
+                        <a href="mailto:bhudevnetwork@gmail.com">bhudevnetwork@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Search Section -->
+        <section class="search-section" id="search">
+            <div class="container">
+                <h2 class="section-title">Find Your Perfect Match</h2>
+                <div class="search-container">
+                    <input type="text" class="search-input"
+                        placeholder="Search for matrimonial services, apps, or communities...">
+                    <div class="search-results" style="display: none;"></div>
+                </div>
+                <div class="search-stats">
+                    <p><strong>Total Profiles:</strong> <span id="total-count">0</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Apps Section -->
+        <section class="apps-section" id="apps">
+            <div class="container">
+                <h2 class="section-title">Our Matrimonial Apps</h2>
+                <div class="apps-grid">
+                    <div class="app-card">
+                        <div class="app-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Regional App</h3>
+                        <p>Find matches within your specific region and local community. Connect with people who share
+                            your cultural background and local traditions.</p>
+                        <a href="./pages/regional-app.html" class="btn btn-primary">Explore Regional</a>
+                    </div>
+
+                    <div class="app-card">
+                        <div class="app-icon">
+                            <i class="fas fa-th-large"></i>
+                        </div>
+                        <h3>Categorical App</h3>
+                        <p>Browse profiles by specific categories including profession, education, lifestyle, and
+                            interests to find your ideal partner.</p>
+                        <a href="./pages/categorical-app.html" class="btn btn-primary">Browse Categories</a>
+                    </div>
+
+                    <div class="app-card">
+                        <div class="app-icon">
+                            <i class="fas fa-city"></i>
+                        </div>
+                        <h3>City App</h3>
+                        <p>Connect with potential matches in your city or nearby urban areas. Perfect for those seeking
+                            local connections and relationships.</p>
+                        <a href="./pages/city-app.html" class="btn btn-primary">City Matches</a>
+                    </div>
+
+                    <div class="app-card">
+                        <div class="app-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Social App</h3>
+                        <p>Build meaningful connections through social interactions, events, and community activities
+                            before taking the next step.</p>
+                        <a href="./pages/social-app.html" class="btn btn-primary">Social Connect</a>
+                    </div>
+
+                    <div class="app-card">
+                        <div class="app-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>NRI App</h3>
+                        <p>Specially designed for Non-Resident Indians seeking partners globally while maintaining
+                            cultural values and traditions.</p>
+                        <a href="./pages/nri-app.html" class="btn btn-primary">NRI Community</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section">
+            <div class="container">
+                <h2 class="section-title">Why Choose Bhudev Network?</h2>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Secure & Private</h3>
+                        <p>Your privacy and security are our top priorities with advanced encryption and verification
+                            processes.</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Genuine Profiles</h3>
+                        <p>All profiles are verified to ensure authenticity and help you find genuine connections.</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>Advanced Matching</h3>
+                        <p>Our intelligent matching algorithm helps you find compatible partners based on your
+                            preferences.</p>
+                    </div>
+
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-headphones"></i>
+                        </div>
+                        <h3>24/7 Support</h3>
+                        <p>Our dedicated support team is available round the clock to assist you with any queries.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Success Stories Section -->
+        <section class="success-stories">
+            <div class="container">
+                <h2 class="section-title">Success Stories</h2>
+                <div class="stories-grid">
+                    <div class="story-item">
+                        <div class="story-content">
+                            <p>"Thanks to Bhudev Network, I found my perfect partner. The platform made it easy to
+                                connect with like-minded people."</p>
+                            <div class="story-author">
+                                <strong>Priya & Raj</strong>
+                                <span>Married in 2023</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="story-item">
+                        <div class="story-content">
+                            <p>"The regional app helped us connect with someone from our community. We're grateful for
+                                this wonderful platform."</p>
+                            <div class="story-author">
+                                <strong>Anjali & Vikram</strong>
+                                <span>Married in 2023</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="story-item">
+                        <div class="story-content">
+                            <p>"As NRIs, finding someone who understood our background was challenging. The NRI app made
+                                it possible."</p>
+                            <div class="story-author">
+                                <strong>Meera & Arjun</strong>
+                                <span>Married in 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2023 Bhudev Network Charitable Foundation. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="./pages/privacy.html">Privacy Policy</a>
+                    <a href="./pages/terms.html">Terms of Service</a>
+                    <a href="./pages/about.html">About Us</a>
+                    <a href="./pages/happy-stories.html">Success Stories</a>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="./js/main.js"></script>
+
+    <!-- Analytics (Replace with your tracking code) -->
+    <script>
+        // Google Analytics or other analytics code
+        // Replace with your actual tracking code
+    </script>
+</body>
+
+</html>
